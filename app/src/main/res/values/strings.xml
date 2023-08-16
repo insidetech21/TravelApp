@@ -25,7 +25,9 @@
     <string name="teamviewersdk_session_code_static_s">s</string>
     <string name="teamviewersdk_authentication_connect">Connect</string>
     <string name="teamviewersdk_authentication_cancel">Cancel</string>
-    
+
+    <string name="task_affinity">com.teamviewer.example.travel</string>
+
     <!-- Planning settings -->
     <string name="pref_header_planning">Planning</string>
     <string name="pref_title_trip">Trip</string>

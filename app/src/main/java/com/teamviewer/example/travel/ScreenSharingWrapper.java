@@ -40,19 +40,17 @@ public final class ScreenSharingWrapper {
      * <a href="https://login.teamviewer.com/nav/api/create/mobile">TeamViewer Management Console</a>.
      * //TODO Add SDK_TOKEN here in the form "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"
      */
-    private static final String SDK_TOKEN = ;
+    private static final String SDK_TOKEN = "{ce3b7b1a-da7d-6a24-0685-e88051e00fea}";
 
     private RunningStateListener mRunningStateListener;
     private TeamViewerSdk m_teamViewerSdk;
     private TeamViewerSession mCurrentSession;
 
-    public static ScreenSharingWrapper getInstance() {
+    public static ScreenSharingWrapper getInstance()
+    {
         return sInstance;
     }
-
-    private ScreenSharingWrapper() {
-        // created by the factory method
-    }
+    
 
     /**
      * @param listener A listener object, or {@code null} to unregister.
